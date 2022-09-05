@@ -13,9 +13,10 @@ spring:
 
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3307/kb_backend?characterEncoding=UTF-8&serverTimezone
-    username: root
-    password: 1234
+#    url: jdbc:mariadb://localhost:3307/kb_backend?characterEncoding=UTF-8&serverTimezone
+    url: jdbc:mariadb://plovo.c4akum70ou2t.ap-northeast-2.rds.amazonaws.com
+    username: admin
+    password: 20000118
 
   security:
     oauth2:
